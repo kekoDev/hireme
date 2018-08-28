@@ -119,13 +119,12 @@ if (isset($_SESSION["username"]) and isset($_SESSION["password"])) {
             <input id="password" onkeyup="ch(this.value,'password')"  placeholder="كلمه السر" class="uk-input" type="password" name="password">
             </div>
             </div>
-            <a class="uk-button uk-button-text" style="font-size:10px;" href="login.php" >لديك حساب مسبقا</a>
-            <br>
             <p id="error_msg" class="uk-margin">
             </p>
             <p class="uk-margin">
             <input id="ck" class="uk-button uk-button-primary" type="submit" value="انشاء حساب الان">
             </p>
+            <a class="uk-button uk-button-text" style="font-size:10px;" href="login.php" >لديك حساب مسبقا</a>
             </div>
          </form>
     </center>
