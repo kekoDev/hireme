@@ -121,6 +121,8 @@ if (isset($_SESSION["username"]) and isset($_SESSION["password"])) {
             </div>
             <a class="uk-button uk-button-text" style="font-size:10px;" href="login.php" >لديك حساب مسبقا</a>
             <br>
+            <p id="error_msg" class="uk-margin">
+            </p>
             <p class="uk-margin">
             <input id="ck" class="uk-button uk-button-primary" type="submit" value="انشاء حساب الان">
             </p>
@@ -144,7 +146,8 @@ if (isset($_SESSION["error"]) and $_SESSION["error"] == "ok"){
         document.getElementById("password").style.borderRightColor = "red";
         document.getElementById("email").style.borderLeftColor = "red";
         document.getElementById("email").style.borderRightColor = "red";
-    </script>
+        document.getElementById("error_msg").innerHTML = '<a style="color:red">عليك ملئ الحقول بشكل الصحيح</a>';
+     </script>
     <?php
     unset($_SESSION["error"]);
 }
