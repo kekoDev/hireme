@@ -1,0 +1,98 @@
+#keko {
+   background-image: url(photo/photo1.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   width: 98%;
+   height: 500px;
+   left: 1%
+}
+.keko_pp {
+    margin: 2% 4%
+}
+.keko_p {
+    margin: 1% 0%;
+    padding: 2%;
+    border-radius: 10%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.keko_text {
+    margin: 3% 7%;
+    text-align: right;
+
+}
+.keko_r {
+    left: 1%;
+    display: inline;
+    padding: 0px 1% 0px 0px;
+    font-size: 120%
+}
+.title_b {
+      left: 18%;
+      margin: 0px 3px 0px;
+   
+}
+.code-for-iraq {
+     left: 15%;
+     font-size: 8px;
+     display: inline;
+}
+.code-for-iraq2 {
+     font-size: 80%;
+     display: inline-block;
+     margin: 40% auto auto;
+     left: 4%;
+}
+
+.text_new_ac {
+    font-size: 1%;
+}
+.more {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background: rgb(30, 135, 240);
+    border-radius:10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    bottom: 100px;
+}
+
+.man {
+    left: 50%
+}
+
+@media only screen and (min-width: 768px) {
+    .keko_p {
+        margin: 1% 27%;
+        padding: 6%;
+        border-radius: 10%;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .keko_p2 {
+        margin: 1% 10%;
+        padding: 2% 4%;
+        border-radius: 10%;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .keko_pp2 {
+        margin: 0% 10%
+    }
+    .keko_pp {
+        margin: 2% 20%
+    }
+    .man {
+    left: 79%
+    }
+
+    .title_b {
+      left: 70.5%;
+      margin: 1%;
+    }
+   
+    .code-for-iraq { 
+       display: inline-block; 
+       font-size: 100%;
+       left: 49%
+   }
+   .more {
+      display: inline;
+   }
+}
