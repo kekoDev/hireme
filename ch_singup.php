@@ -13,7 +13,11 @@ if (isset($_SESSION["username"]) and isset($_SESSION["password"])) {
 
 function error(){
     $_SESSION["error"] = "ok";
-    header("Location: home.php");
+    if (isset($_SERVER[HTTP_REFERER])){
+        header("Location: ".$_SERVER[HTTP_REFERER]);
+    }else{
+        header("Location: home.php");
+    }
     exit("no");
 }
 
