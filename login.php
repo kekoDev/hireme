@@ -58,6 +58,8 @@ if (isset($_SESSION["username"]) and isset($_SESSION["password"])) {
             </div>
             <a class="uk-button uk-button-text" style="font-size:10px;" href="singup.php" >انشاء حساب جديد</a>
             <br>
+            <p id="error_msg" class="uk-margin">
+            </p>
             <p class="uk-margin">
             <input class="uk-button uk-button-primary" type="submit" value="تسجيل الدخول">
             </p>
@@ -78,6 +80,7 @@ if (isset($_SESSION["error"]) and $_SESSION["error"] == "ok"){
         document.getElementById("username").style.borderRightColor = "red";
         document.getElementById("password").style.borderLeftColor = "red";
         document.getElementById("password").style.borderRightColor = "red";
+        document.getElementById("error_msg").innerHTML = '<a style="color:red">عليك ملئ الحقول بشكل الصحيح</a>';
     </script>
     <?php
     $_SESSION["error"] = "no";
