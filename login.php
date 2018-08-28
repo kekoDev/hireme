@@ -56,13 +56,12 @@ if (isset($_SESSION["username"]) and isset($_SESSION["password"])) {
             <input id="password" placeholder="كلمه السر" class="uk-input" type="password" name="pass_login">
             </div>
             </div>
-            <a class="uk-button uk-button-text" style="font-size:10px;" href="singup.php" >انشاء حساب جديد</a>
-            <br>
             <p id="error_msg" class="uk-margin">
             </p>
             <p class="uk-margin">
             <input class="uk-button uk-button-primary" type="submit" value="تسجيل الدخول">
             </p>
+            <a class="uk-button uk-button-text" style="font-size:10px;" href="singup.php" >انشاء حساب جديد</a>
             </div>
         </form>
     </center>
