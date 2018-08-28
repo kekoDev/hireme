@@ -3,7 +3,7 @@
 
 $host = "localhost";
 $user = "root";
-$password = "nike07723177600";
+$password = "";
 
 ////////////////////
 define('host_mysql',$host);
